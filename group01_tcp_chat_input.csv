@@ -1,0 +1,4 @@
+msg_id,app_protocol,src_app,dst_app,message,timestamp
+1,TCP,Client,Server,THIS IS A TCP PAYLOAD MESSAGE FOR WIRESHARK PROJECT,20/01/2026 21:10
+2,TCP,Client,Server,Second application message,20/01/2026 21:10
+3,TCP,Client,Server,Third test payload,20/01/2026 21:10

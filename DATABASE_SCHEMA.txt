@@ -1,0 +1,6 @@
+The project uses a CSV file as a logical application-level database.
+The file stores the messages that are sent between the client and server
+applications before encapsulation into TCP/IP packets.
+
+The chosen structure allows clear separation between the application layer
+data and the transport/network layers.

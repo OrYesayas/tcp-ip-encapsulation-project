@@ -1,0 +1,27 @@
+How to Run (Windows, Loopback)
+
+1) Prerequisites
+- Python 3 installed
+- Open a terminal / PowerShell in the project folder
+
+2) Run the Server
+- Open Terminal #1
+- Run:
+  python server.py
+- Expected output:
+  Server listening on 127.0.0.1:10000
+
+3) Run the Client
+- Open Terminal #2
+- Run:
+  python client.py
+- Type messages and press Enter.
+- To exit, type: EXIT
+
+4) (Optional) Wireshark Capture
+- Open Wireshark
+- Select: Npcap Loopback Adapter
+- Start capture
+- Display filter:
+  tcp.port == 10000
+- Send a few messages from the client, then stop capture and save the .pcapng file.
