@@ -1,14 +1,19 @@
 # TCP/IP Encapsulation Project
 
-This project demonstrates a TCP client-server application and the encapsulation
-of application-layer messages into TCP/IP packets.
+This project implements a TCP-based client-server application using Python sockets
+and demonstrates how application-layer messages are encapsulated into TCP/IP packets.
 
-## Contents
-- Python TCP client and server
-- CSV file with application messages
-- Jupyter Notebook for encapsulation analysis
-- Wireshark capture (.pcapng)
-- Execution instructions
+Application messages are defined in a CSV file and transmitted over a TCP connection
+on the loopback interface (127.0.0.1). The encapsulation process is analyzed using
+Wireshark, allowing inspection of TCP headers, control flags, and payload data.
+
+## Project Contents
+- Python implementation of a TCP client and server
+- CSV file representing application-layer messages
+- Jupyter Notebook demonstrating TCP/IP encapsulation
+- Wireshark packet capture (.pcapng) for traffic analysis
+- Execution instructions for running the application
 
 ## How to Run
-See RUN_INSTRUCTIONS.txt for detailed steps.
+Detailed execution steps are provided in the RUN_INSTRUCTIONS.txt file.
+
