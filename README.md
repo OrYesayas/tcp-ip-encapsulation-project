@@ -10,16 +10,14 @@ The analysis illustrates the TCP three-way handshake, acknowledgment packets, an
 
 ## Project Contents
 
-- Python implementation of a TCP client and server
-- CSV file representing application-layer messages
-- Jupyter Notebook demonstrating TCP/IP encapsulation across layers
-- Wireshark packet capture file (.pcapng) for traffic analysis
-- Execution instructions for running the application
+- Python implementation of a TCP client and server  
+- CSV file representing application-layer messages  
+- Jupyter Notebook demonstrating TCP/IP encapsulation across layers  
+- Wireshark packet capture file (.pcapng) for traffic analysis  
+- Execution instructions for running the application  
 
 ---
 
 ## How to Run
 
 Detailed execution steps, including environment setup, server and client execution, and Wireshark capture instructions, are provided in the `RUN_INSTRUCTIONS.txt` file.
-
----
